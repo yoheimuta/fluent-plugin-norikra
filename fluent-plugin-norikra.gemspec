@@ -1,13 +1,13 @@
 # coding: utf-8
 
 Gem::Specification.new do |spec|
-  spec.name          = "fluent-plugin-norikra"
+  spec.name          = "fluent-plugin-norikra-patched-7"
   spec.version       = "0.2.2"
-  spec.authors       = ["TAGOMORI Satoshi"]
-  spec.email         = ["tagomoris@gmail.com"]
-  spec.description   = %q{process events on fluentd with SQL like query, with built-in Norikra server if needed.}
+  spec.authors       = ["Yohei Yoshimuta"]
+  spec.email         = ["yoheimuta@gmail.com"]
+  spec.description   = %q{Patched(see https://github.com/norikra/fluent-plugin-norikra/issues/7). process events on fluentd with SQL like query, with built-in Norikra server if needed.}
   spec.summary       = %q{Fluentd plugin to do CEP with norikra}
-  spec.homepage      = "https://github.com/norikra/fluent-plugin-norikra"
+  spec.homepage      = "https://github.com/yoheimuta/fluent-plugin-norikra"
   spec.license       = "APLv2"
 
   spec.files         = `git ls-files`.split($/)
